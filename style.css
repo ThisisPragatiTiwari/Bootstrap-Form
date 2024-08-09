@@ -1,0 +1,92 @@
+body {
+  margin: 8vw 15vw;
+  background: #eef5ff;
+  font-family: "Madurai", sans-serif !important;
+}
+
+.col {
+  border: 2px solid black;
+}
+
+.col-xl {
+  border: 2px solid red;
+}
+
+.row {
+  height: max-content;
+}
+
+.text {
+  word-wrap: normal;
+}
+
+.steps {
+  line-height: 0.8;
+  background: #483eff;
+}
+input {
+  font-size: 14px !important;
+}
+.main-div {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 20px;
+}
+.marker {
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.marker:hover {
+  border-color: #bee4fb;
+  background-color: #bee4fb;
+  color: black;
+}
+.marker.active {
+    border-color: #bee4fb;
+    background-color: #bee4fb;
+    color: black;
+  }
+
+.p-info {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.grey-text {
+  color: #b0b0b7;
+}
+input::placeholder {
+  color: #b0b0b7 !important;
+  opacity: 0.5;
+}
+h1 {
+  color: #062954;
+  font-weight: bold;
+}
+.titles {
+  color: #052553;
+  /* font-weight: bolder; */
+}
+.submit {
+  background: #052553;
+}
+
+@media (min-width: 768px) and (max-width: 1160px) {
+  .menu {
+    padding-left: 5px;
+  }
+  .checkbox {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .checkbox {
+    flex-direction: column;
+  }
+}
